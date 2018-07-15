@@ -15,7 +15,7 @@ public class HeapOOM {
     }
 
     /**
-     * VM Args:-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+     * VM Args:-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=E:\file
      * @param args
      */
     public static void main(String[] args) {
